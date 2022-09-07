@@ -39,3 +39,17 @@
     font-style: normal;
     font-weight: 600;
 }
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter/Inter-Bold.woff) format('woff');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter/Inter-Bold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 700;
+}

@@ -1,0 +1,8 @@
+.goods__item_image {
+    border-radius: 20px;
+    box-shadow: -20px 40px 220px rgba(0, 0, 0, 0.05);
+    object-fit: cover;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+}

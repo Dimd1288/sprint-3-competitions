@@ -1,0 +1,14 @@
+.apps {
+    display: grid;
+    grid-template-columns: 1fr 580px;
+    width: calc(100% - 240px);
+    margin: 0 auto;
+    gap: 0 160px;
+    padding: 150px 0 120px 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .apps {
+        grid-template-columns: 1fr;
+    }
+}

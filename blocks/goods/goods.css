@@ -1,0 +1,8 @@
+.goods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: calc(100% - 240px);
+    margin: 0 auto;
+    padding: 60px 0;
+}
