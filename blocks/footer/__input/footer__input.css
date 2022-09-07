@@ -1,0 +1,22 @@
+.footer__input {
+    width: 30%;
+    height: 50px;
+    padding: 0 0 0 20px;
+    border: 1px solid #C7C7C7;
+    border-radius: 4px;
+}
+
+.footer__input:focus {
+    outline: none;
+    border: 1px solid #151515;
+}
+
+.footer__input::placeholder {
+    opacity: 0.7;
+    transition: opacity .5s;
+}
+
+.footer__input:focus::placeholder{
+    opacity: 0;
+}
+
