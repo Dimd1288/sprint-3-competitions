@@ -6,3 +6,9 @@
     margin: 0 auto;
     padding: 60px 0;
 }
+
+@media screen and (max-width: 768px) {
+    .goods {
+        width: calc(100% - 48px);
+    }
+}

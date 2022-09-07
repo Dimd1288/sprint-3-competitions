@@ -1,0 +1,11 @@
+.slider__buttons {
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (max-width: 820px) {
+    .slider__buttons {
+        order: -2;
+        align-self: center;
+    }
+}

@@ -1,5 +1,6 @@
 .apps__image {
     object-fit: cover;
+    object-position: center;
     width: 100%;
     max-width: 580px;
     grid-column: 2;

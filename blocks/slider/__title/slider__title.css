@@ -1,0 +1,12 @@
+.slider__title {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 60px;
+    letter-spacing: -0.5px;
+}
+
+@media screen and (max-width: 820px) {
+    .slider__title {
+        order: -3;
+    }
+}

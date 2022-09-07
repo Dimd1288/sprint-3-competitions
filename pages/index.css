@@ -20,10 +20,11 @@
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/__items/slider__items.css);
 @import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/__figure-svg/slider__figure-svg.css);
+@import url(../blocks/slider/__image/slider__image.css);
 @import url(../blocks/slider/__title/slider__title.css);
 @import url(../blocks/slider/__buttons/slider__buttons.css);
-@import url(../blocks/slider/__buttons/_back/slider__buttons_back.css);
-@import url(../blocks/slider/__buttons/_next/slider__buttons_next.css);
+@import url(../blocks/slider/__button/slider__button.css);
 @import url(../blocks/goods/goods.css);
 @import url(../blocks/goods/__items/goods__items.css);
 @import url(../blocks/goods/__item/goods__item.css);

@@ -4,4 +4,13 @@
     font-size: 55px;
     line-height: 60px;
     letter-spacing: -0.5px;
+    max-width: 460px;
+}
+
+@media screen and (max-width: 399px) {
+    .goods__title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    
 }
