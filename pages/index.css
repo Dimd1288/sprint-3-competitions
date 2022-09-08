@@ -30,6 +30,7 @@
 @import url(../blocks/goods/__item/goods__item.css);
 @import url(../blocks/goods/__item/_image/goods__item_image.css);
 @import url(../blocks/goods/__item/_title/goods__item_title.css);
+@import url(../blocks/goods/__item/_link/goods__item_link.css);
 @import url(../blocks/goods/__title/goods__title.css);
 @import url(../blocks/goods/__types/goods__types.css);
 @import url(../blocks/goods/__types-item/goods__types-item.css);
