@@ -3,6 +3,7 @@
     flex-direction: column;
     width: calc(100% - 120px);
     margin: 0 0 0 auto;
+    padding-bottom: 60px;
 }
 
 @media screen and (max-width: 820px) {
@@ -18,5 +19,6 @@
 @media screen and (max-width: 370px) {
     .slider {
         width: calc(100% - 36px);
+        padding: 40px 0 80px 0;
     }
 }
