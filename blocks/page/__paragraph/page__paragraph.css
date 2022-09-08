@@ -7,3 +7,10 @@
     margin: 0;
     max-width: 460px;
 }
+
+@media screen and (max-width: 399px) {
+    .page__paragraph {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

@@ -14,3 +14,9 @@
         justify-content: space-between;
     }
 }
+
+@media screen and (max-width: 370px) {
+    .slider {
+        width: calc(100% - 36px);
+    }
+}

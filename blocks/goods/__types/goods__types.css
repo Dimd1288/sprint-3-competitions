@@ -6,3 +6,9 @@
     padding: 0;
     align-self: flex-end;
 }
+
+@media screen and (max-width: 768px) {
+    .goods__types {
+        display: none;
+    }
+}

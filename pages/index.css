@@ -34,6 +34,8 @@
 @import url(../blocks/goods/__types/goods__types.css);
 @import url(../blocks/goods/__types-item/goods__types-item.css);
 @import url(../blocks/goods/__types-item/_active/goods__types-item_active.css);
+@import url(../blocks/goods/__form/goods__form.css);
+@import url(../blocks/goods/__select/goods__select.css);
 @import url(../blocks/apps/apps.css);
 @import url(../blocks/apps/__image/apps__image.css);
 @import url(../blocks/apps/__link/apps__link.css);

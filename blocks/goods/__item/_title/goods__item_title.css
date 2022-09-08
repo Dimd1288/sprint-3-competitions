@@ -4,3 +4,10 @@
     line-height: 22px;
     margin: 22px 0 0 0;
 }
+
+@media screen and (max-width: 399px) {
+    .goods__item_title {
+        margin: 0;
+        padding-bottom: 16px;
+    }
+}
