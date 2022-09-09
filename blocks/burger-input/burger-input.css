@@ -6,16 +6,19 @@
   right: 18px;
   opacity: 0;
   z-index: 4;
+  cursor: pointer;
+  
 }
 
 @media screen and (max-width: 768px) {
-  .burger-input:checked ~ .menu {
+  .burger-input:checked ~ .header__menu {
     display: flex;
+    width: 100%;
     flex-direction: column;
     right: 20px;
     margin-top: 105px;
     gap: 8px;
     background-color: rgba(0, 0, 0, .8);
-    
+    padding-left: 10px;
   }
 }
