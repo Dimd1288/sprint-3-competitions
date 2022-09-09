@@ -1,0 +1,15 @@
+.container__image {
+  width: 42.36vw;
+  grid-column: 2/2;
+  grid-row: 1/6;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .container__image {
+    width: 79.375vw;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 0;
+  }
+}

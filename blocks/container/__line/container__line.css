@@ -1,0 +1,10 @@
+.container__line {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+@media screen and (max-width: 520px) {
+  .container__line {
+    display: none;
+  }
+}

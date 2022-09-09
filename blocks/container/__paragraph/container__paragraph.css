@@ -1,0 +1,17 @@
+.container__paragraph {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .container__paragraph {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
