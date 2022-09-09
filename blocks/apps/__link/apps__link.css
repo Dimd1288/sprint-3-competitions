@@ -4,4 +4,16 @@
     font-size: 18px;
     line-height: 28px;
     color: #151515;
+    transition: opacity .5s;
+}
+
+@media screen and (max-width: 370px) {
+    .apps__link {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+.apps__link:hover {
+    opacity: .7;
 }

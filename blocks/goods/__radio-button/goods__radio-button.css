@@ -1,0 +1,18 @@
+.goods__radio-button{
+    visibility: hidden;
+}
+
+.goods__radio-button::before {
+    visibility: visible;
+    display: block;
+    content: "";
+    cursor: pointer;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #CACACA;
+}
+
+.goods__radio-button:checked::before{
+    background-color: #151515;
+}
