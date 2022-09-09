@@ -1,7 +1,11 @@
 .header {
-  max-width: 1440px;
+  position: fixed;
+  top: 0;
+  width: 100%;
   min-height: 74px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  background-color: #F4F4F4;
+  z-index: 10;
 }

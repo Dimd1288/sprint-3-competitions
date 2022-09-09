@@ -16,5 +16,7 @@
     .slider__button {
         width: 24px;
         height: 24px;
+        font-size: 24px;
+        padding-bottom: 1px;
     }
 };
