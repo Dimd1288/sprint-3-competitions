@@ -1,0 +1,23 @@
+.container {
+  max-width: 1320px;
+  padding-left: 120px;
+  display: grid;
+  grid-template-columns: fit-content(460px) fit-content(610px);
+  grid-template-rows: min-content min-content min-content min-content 1fr;
+  row-gap: 50px;
+  column-gap: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: fit-content(284px);
+    grid-template-rows: min-content 1fr min-content min-content min-content;
+    row-gap: 40px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .container {
+    padding: 0;
+  }
+}

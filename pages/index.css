@@ -13,10 +13,15 @@
 @import url(../blocks/burger-input/burger-input.css);
 @import url(../blocks/burger-label/__line/burger-label__line.css);
 @import url(../blocks/lead/lead.css);
-@import url(../blocks/lead/__button/lead__button.css);
-@import url(../blocks/lead/__line/lead__line.css);
-@import url(../blocks/lead/__sign/lead__sign.css);
-@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/container/container.css);
+@import url(../blocks/container/__button/container__button.css);
+@import url(../blocks/container/__line/container__line.css);
+@import url(../blocks/container/__sign/container__sign.css);
+@import url(../blocks/container/__title/container__title.css);
+@import url(../blocks/container/__image/container__image.css);
+@import url(../blocks/container/__paragraph/container__paragraph.css);
+@import url(../blocks/container/__flex/container__flex.css);
+
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__image/intro__image.css);
 @import url(../blocks/intro/__author-wrapper/intro__author-wrapper.css);

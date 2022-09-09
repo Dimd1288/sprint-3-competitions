@@ -1,4 +1,7 @@
 .intro {
+<<<<<<< HEAD
+  padding-top: 120px;
+=======
     width: calc(100% - 240px);
     gap: 0 80px;
     margin: 0 auto;
@@ -24,4 +27,5 @@
         width: calc(100% - 36px);
         padding: 40px 0 80px 0;
     }
+>>>>>>> 6e0be57a77b6d26847b3d8b149322c1c3dfb2cef
 }
