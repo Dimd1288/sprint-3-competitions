@@ -1,0 +1,18 @@
+.menu {
+  position: fixed;
+  right: 120px;
+  z-index: 3;
+  list-style: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu {
+    right: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+}

@@ -1,0 +1,11 @@
+.burger-label__line {
+  width: 22px;
+  height: 3px;
+  background-color: #000;
+  margin-bottom: 8px;
+}
+
+.burger-label__line:last-of-type {
+  margin-bottom: 0;
+}
+

@@ -1,0 +1,16 @@
+.menu__link {
+  margin-right: 34px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+}
+
+.menu__link:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__link {
+    color: #fff;
+  }
+}

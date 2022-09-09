@@ -1,0 +1,13 @@
+.burger-label {
+  position: fixed;
+  top: 28px;
+  right: 18px;
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .burger-label {
+    display: block;
+  }
+}
