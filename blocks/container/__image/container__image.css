@@ -1,5 +1,6 @@
 .container__image {
-  width: 42.36vw;
+  width: 100%;
+  object-fit: cover;
   grid-column: 2/2;
   grid-row: 1/6;
   padding-top: 20px;
@@ -7,9 +8,10 @@
 
 @media screen and (max-width: 768px) {
   .container__image {
-    width: 79.375vw;
     grid-column: 1/2;
     grid-row: 2/3;
     padding: 0;
+    max-width: 254px;
+    transform: translateX(20px);
   }
 }

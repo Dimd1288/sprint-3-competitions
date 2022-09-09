@@ -7,8 +7,8 @@
 @import url(../blocks/page/__paragraph/page__paragraph.css);
 @import url(../blocks/page/__paragraph/_size/page__paragraph_size_small.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/menu/menu.css);
-@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/burger-label/burger-label.css);
 @import url(../blocks/burger-input/burger-input.css);
 @import url(../blocks/burger-label/__line/burger-label__line.css);
