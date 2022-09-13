@@ -26,14 +26,15 @@
 
 @media screen and (max-width: 768px) {
   .container {
-    grid-template-columns: fit-content(284px);
+    grid-template-columns: fit-content(600px);
     grid-template-rows: min-content 1fr min-content min-content min-content;
     row-gap: 40px;
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 320px) {
   .container {
+    grid-template-columns: fit-content(284px);
     padding: 0 0 40px 0;
   }
 }
